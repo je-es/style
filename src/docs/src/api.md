@@ -107,6 +107,7 @@
           style           : i_style,
           endWithNewLine ?: boolean,
           begWithNewLine ?: boolean,
+          autoEnd        ?: boolean // if false, disabe endWithNewLine and begWithNewLine
       };
 
       type t_patterns = t_pattern[];

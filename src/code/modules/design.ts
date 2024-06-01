@@ -19,6 +19,7 @@
         style           : i_style,
         endWithNewLine ?: boolean,
         begWithNewLine ?: boolean,
+        autoEnd        ?: boolean
     };
 
     export type                             t_patterns = t_pattern[];
@@ -73,6 +74,7 @@
 
                     res += style(val[pat[i].name], pat[i].style);
 
+                    if(!(pat[i]?.autoEnd === false))
                     res += pat[i].endWithNewLine ? '\n' : ' ';
                 }
 
