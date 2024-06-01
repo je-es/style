@@ -109,7 +109,7 @@
           begWithNewLine ?: boolean,
       };
 
-      type t_patterns = [t_pattern];
+      type t_patterns = t_pattern[];
       ```
 
       ```ts

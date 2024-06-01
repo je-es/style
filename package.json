@@ -1,6 +1,6 @@
 {
 	"name": "@je-es/style",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "A utility for styling text output, providing customizable formatting options such as foreground and background colors, text attributes, padding, borders, width, and alignment.",
 	"keywords": [
 		"je-es",

@@ -21,7 +21,7 @@
         begWithNewLine ?: boolean,
     };
 
-    export type                             t_patterns = [t_pattern];
+    export type                             t_patterns = t_pattern[];
 
 /* ---------------------------------------- ---- ----------------------------------------  */
 
