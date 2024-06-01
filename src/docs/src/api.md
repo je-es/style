@@ -101,24 +101,26 @@
     - **Prototype**
 
       ```ts
-      type t_pattern =
-      [{
-        name            : string,
-        style           : i_style,
-        begWithNewLine ?: boolean,
-        endWithNewLine ?: boolean,
-      }];
+      interface t_pattern
+      {
+          name            : string,
+          style           : i_style,
+          endWithNewLine ?: boolean,
+          begWithNewLine ?: boolean,
+      };
+
+      type t_patterns = [t_pattern];
       ```
 
       ```ts
       const pattern
-      = (pat : t_pattern)
-      : t_pattern => pat
+      = (pat : t_pattern | t_patterns)
+      : t_pattern | t_patterns => pat
       ```
 
       ```ts
       const design
-      = (pat : t_pattern, val : any)
+      = (pat : t_pattern | t_patterns, val : any)
       : string
       ```
 
