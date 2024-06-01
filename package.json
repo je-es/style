@@ -1,6 +1,6 @@
 {
 	"name": "@je-es/style",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A utility for styling text output, providing customizable formatting options such as foreground and background colors, text attributes, padding, borders, width, and alignment.",
 	"keywords": [
 		"je-es",
@@ -37,12 +37,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/githubOwner/repoName.git"
+		"url": "git+https://github.com/je-es/style.git"
 	},
 	"bugs": {
-		"url": "https://github.com/githubOwner/repoName/issues"
+		"url": "https://github.com/je-es/style/issues"
 	},
-	"homepage": "https://github.com/githubOwner/repoName#readme",
+	"homepage": "https://github.com/je-es/style#readme",
 	"devDependencies": {
 		"@types/jest": "^29.5.12",
 		"@types/node": "^20.12.7",
